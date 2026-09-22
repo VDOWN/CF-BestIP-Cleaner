@@ -56,7 +56,7 @@
 
 ## 使用方式
 
-1. 在 Cloudflare Workers 中创建 Worker，粘贴 `worker.js` 代码。
+1. 在 Cloudflare Workers 中创建 Worker，粘贴 `_worker.js` 代码。
 2. 按需修改 `SOURCES`（源列表）、`REPLACE_RULES`（替换规则）、`OUTPUT_PATH`（输出路径）。
 3. 部署后，把 edgetunnel 的外部优选 API 地址指向 `https://你的worker地址/bestip.txt`。
 
